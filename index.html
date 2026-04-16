@@ -1,11 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>API Full Stack Project</title>
-  </head>
-  <body>
-    <!-- You code goes here-->
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Mood Matcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cat Mood Matcher</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="mood-selector">
+            <h2>Select Your Mood</h2>
+            <div class="mood-buttons">
+                <button class="mood-btn">Happy</button>
+                <button class="mood-btn">Sad</button>
+                <button class="mood-btn">Sleepy</button>
+                <button class="mood-btn">Playful</button>
+                <button class="mood-btn">Angry</button>
+            </div>
+        </section>
+
+        <section id="image-display">
+            <h2>Your Cat Match</h2>
+            <div id="cat-image-container">
+                <!-- Placeholder for Cat API image -->
+                <img id="cat-image" src="placeholder.jpg" alt="Cat Image Placeholder">
+            </div>
+            <button id="save-btn">Save to Favorites</button>
+        </section>
+    </main>
+
+</body>
 </html>
