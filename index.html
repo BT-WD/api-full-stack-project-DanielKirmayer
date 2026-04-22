@@ -13,12 +13,11 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="favorites.html">Favorites</a>
-            <a href="login.html">Login</a>
         </nav>
     </header>
 
     <main>
-        <section id="mood-selector">
+        <section class="card">
             <h2>Select Your Mood</h2>
             <div class="mood-buttons">
                 <button class="mood-btn">Happy</button>
@@ -29,14 +28,15 @@
             </div>
         </section>
 
-        <section id="image-display">
+        <section class="card">
             <h2>Your Cat Match</h2>
             <div id="cat-image-container">
-                <img id="cat-image" src="placeholder.jpg" alt="Cat Image Placeholder">
+                <img id="cat-image" src="placeholder.jpg" alt="Cat Image">
             </div>
-            <button id="save-btn">Save to Favorites</button>
+            <button id="save-btn" class="primary-btn">Save to Favorites</button>
         </section>
     </main>
+
     <script src="index.js"></script>
 </body>
 </html>
