@@ -1,6 +1,95 @@
-.favorite-img {
-    width: 200px;
-    height: 200px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fafafa;
+    color: #333;
+}
+
+header {
+    background: #ff9ec7;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.mood-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.mood-btn {
+    padding: 12px 20px;
+    background: #ffe3ed;
+    border: 1px solid #ff9ec7;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.mood-btn:hover {
+    background: #ffcee0;
+}
+
+#cat-image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#cat-image {
+    width: 320px;
+    height: 320px;
     object-fit: cover;
-    margin: 10px;
+    border-radius: 12px;
+    background: #ddd;
+}
+
+.primary-btn {
+    margin-top: 18px;
+    padding: 12px 22px;
+    background: #ff9ec7;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: #ff7bab;
+}
+
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.favorite-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
 }
